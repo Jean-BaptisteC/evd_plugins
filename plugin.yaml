@@ -1,12 +1,11 @@
 ---
 id: pcrs_imagery
-name: PCRS Raster Imagery
-version: '1'
+name: PCRS raster Imagery
+version: 1
 author: Jean-BaptisteC
-icon:
 description: |
-  Plugin to use PCRS Raster imagery
-experimental: true
+  Plugin to use PCRS raster imagery
+experimental: false
 
 imagery:
   fr_pcrs_wms:
