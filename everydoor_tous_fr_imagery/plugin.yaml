@@ -1,0 +1,16 @@
+---
+id: tous_fr_imagery
+name: tous_fr imagery
+version: 1
+author: Jean-BaptisteC
+description: |
+  Plugin to use tous_fr imagery
+experimental: false
+
+imagery:
+  fr_pcrs_wms:
+    name: "tous_fr"
+    type: tms
+    url: "https://wms.openstreetmap.fr/tms/1.0.0/COUCHE/{zoom}/{x}/{y}"
+    maxZoom: 20
+    attribution: "OpenStreetMap France"
